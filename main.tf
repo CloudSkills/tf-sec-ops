@@ -68,7 +68,7 @@ module "server" {
   location = azurerm_resource_group.rg.location
 
   servername = "server1"
-  vm_size = "Standard_B2s"
+  vm_size = "Standard_B1s"
   admin_username = "terraadmin"
   admin_password = "P@ssw0rdP@ssw0rd"
   os = {
